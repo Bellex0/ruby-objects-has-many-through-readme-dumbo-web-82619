@@ -17,6 +17,7 @@ class Waiter
     Meal.new(self, customer, total, tip)
   end
   
-  def 
+  def meal
+    Meal.all.select do |meal
 
 end
