@@ -22,5 +22,8 @@ class Customer
       meal.customer == self
     end
   end
+  
+  def waiters 
+    meals.select do |
  
 end
